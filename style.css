@@ -1,0 +1,77 @@
+/* Created by iCodeArmenia */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 55px;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top input, .send, button{
+    border: none;
+    height: 35px;
+    padding: 0;
+    outline: none;
+}
+.top .send{
+    width: 70px;
+    margin-left: 10px;
+    background: #007fee;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} 
+.top input{
+    width: 200px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.output{
+    width: 100%;
+}
+p{
+    background: #eee;
+    max-width: 92%;
+    margin-left: 2%;
+    min-height: 70px;
+    color: #007fee;
+    padding: 2%;
+    word-break: break-all;
+    border-radius: 3px;
+    position: relative;
+}
+p button{
+float: right;
+
+    width: 70px;
+    color: #fff;
+    border-radius: 3px;
+    background: #007fee;
+    
+    bottom: 5px;
+    right: 5px;
+    
+cursor: pointer;
+}
+
+span{
+    padding: 5px;
+    background: #007fee;
+    color: #fff;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 50px;
+margin-left: 2%;
+}
+#out{
+    margin-top: 15px;
+}
